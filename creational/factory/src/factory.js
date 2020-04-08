@@ -1,12 +1,5 @@
-function Developer(name) {
-  this.name = name;
-  this.type = "Developer";
-}
-
-function Tester(name) {
-  this.name = name;
-  this.type = "Tester";
-}
+import Developer from "./dev";
+import Tester from "./tester";
 
 function EmployeeFactory() {
   this.create = (name, type) => {

@@ -1,0 +1,16 @@
+{
+  "name": "factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factory.js",
+  "scripts": {
+    "start": "sucrase-node ./src/factory.js"
+  },
+  "keywords": [],
+  "author": "Guilherme Gules Moreia",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "sucrase": "^3.13.0"
+  }
+}
